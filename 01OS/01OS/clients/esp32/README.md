@@ -9,3 +9,9 @@ To set up audio recording + playback on the ESP32 (M5 Atom), do the following:
     - WebSockets by Markus Sattler
 4. The board needs to connect to WiFi. Once you flash, connect to ESP32 wifi "captive" which will get wifi details. Once it connects, it will ask you to enter 01OS server address in the format "domain.com:port" or "ip:port". Once its able to connect you can use the device.
 5. To flash the .ino to the board, connect the board to the USB port, select the port from the dropdown on the IDE, then select the M5Atom board (or M5Stack-ATOM if you have that). Click on upload to flash the board.
+
+3d Print files:
+https://www.thingiverse.com/thing:6530239
+
+Wiering for battery power:
+https://cdn.thingiverse.com/assets/92/72/ac/d8/2d/large_display_af98a383-ecbf-484d-a454-fc32a61d9f18.jpg
