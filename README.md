@@ -53,7 +53,7 @@ We intend to become the “Linux” of this new space— open, modular, and free
 brew install portaudio ffmpeg cmake
 
 # Ubuntu
-sudo apt-get install portaudio19-dev ffmpeg cmake
+sudo apt-get install portaudio19-dev ffmpeg cmake pip
 ```
 
 If you want to run local speech-to-text using Whisper, install Rust. Follow the instructions given [here](https://www.rust-lang.org/tools/install).
@@ -62,6 +62,12 @@ If you want to run local speech-to-text using Whisper, install Rust. Follow the 
 
 ```shell
 pip install 01OS
+```
+At this point you may need to restart your computer.
+
+Add your OpenAI API Key:
+```shell
+export OPENAI_API_KEY=YORopenAIapiKEY ## replace "YORopenAIapiKEY" with your OpenAI API Key
 ```
 
 ```shell
